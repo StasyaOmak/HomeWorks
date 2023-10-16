@@ -61,9 +61,9 @@ class Figure {
     var square = Float()
     var perimeter = Float()
 
-    init(height: Float, wigth: Float) {
+    init(height: Float, width: Float) {
         self.height = height
-        self.width = wigth
+        self.width = width
     }
 
     func squareOfFigure() -> Float {
@@ -90,6 +90,6 @@ class Rectangle: Figure {
     }
 }
 
-let rectangle = Rectangle(height: 10.0, wigth: 20.0)
+let rectangle = Rectangle(height: 10.0, width: 20.0)
 rectangle.description()
 
